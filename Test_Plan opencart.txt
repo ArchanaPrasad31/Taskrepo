@@ -1,0 +1,491 @@
+﻿TEST PLAN
+<<opencart.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract
+This document provides an overview of the project and the product test strategy, a list of
+testing deliverables and plan for development
+
+
+
+
+
+
+
+
+Archana Prasad
+
+
+
+
+
+
+
+
+
+
+
+
+VERSION HISTORY
+
+
+
+
+
+
+
+
+Version #
+	Write by
+	Revision Date
+	Approved By
+	Approval Date
+	Outline
+	1.0
+	Archana Prasad
+	10/04/2023
+	
+
+	
+
+	Test Plan 
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+TABLE OF CONTENTS
+INTRODUCTION        4
+1. TEST STRATEGY        4
+   1. Test Type        5
+   2. Scope of Testing        4
+      1. Feature to be tested        4
+      2. Feature not to be tested        5
+   3. Risk and Issues        5
+   4. Test Logistics        6
+      1. Who will test?        6
+      2. When will test occur?        6
+2. TEST OBJECTIVE        6
+3. TEST CRITERIA        6
+   1. Suspension Criteria        6
+   2. Exit Criteria        6
+4. RESOURCE PLANNING        6
+   1. System Resource        6
+   2. Human Resource        7
+5. TEST ENVIRONMENT        7
+6. SCHEDULE & ESTIMATION        8
+   1. All project task and estimation        8
+   2. Schedule to complete these tasks        9
+7. TEST DELIVERABLES        9
+   1. Before testing phase        9
+   2. During the testing        9
+   3. After the testing cycles is over        9
+
+
+
+
+INTRODUCTION
+The Test Plan is designed to prescribe the scope, approach, resources, and schedule of all testing activities of the project opencart.com.
+The plan identify the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
+1. TEST STRATEGY
+   1. Scope of Testing
+      1. Feature to be tested
+All the feature of website opencart.com an ecommerce site are defined in software requirement specs are need to tested
+
+
+Module Name
+	User
+	Description
+	Register account
+	New customer
+	A new user has to register to purchase any item
+	Login
+	Customer
+	A customer can login using the credentials after registration
+	My Account
+	Customer
+	The registered customer can view details such as:
+Edit your account information,Change your password,Modify your address book entries,Modify your wish list
+	Edit Account
+	Customer
+	Customer:The user can edit account by going on the register account section or returning customer
+	Password
+	Customer
+	A customer can change password or reset password on clicking on the forgotten password
+	Address Book
+	Customer
+	The customer can add new address on clicking the”New Address” button
+	Wish list
+	Customer
+	The customer can view the items saved in wishlist
+	My Orders
+	Customer
+	The customer can view order history, downloads,your reward points,view your return requests,your transactions,recurring payments
+	View your Order History
+	Customer
+	The customer can view order history on clicking the button
+	Downloads
+	Customer
+	The customer can view the downloaded orders
+	Recurring Payments
+	Customer
+	The customer can view recurring payments if selected
+	Your Reward points
+	Customer
+	The customer can view reward points
+	Returns
+	Customer
+	The customer can view the products returned
+Module Name
+Applicable Roles
+Description
+	Transactions
+	Customer
+	The customer can view transaction details
+	Recurring Payments
+	Customer
+	The customer can view recurring payments if selected
+	My Affiliate Account
+	Customer
+	The customer can view commission for each sale
+	Register for an Affiliate Account
+	Customer
+	The customer can enter details for creating an affiliate account
+	Newsletter
+	Customer
+	The customer can view the link for subscribe/unsubscribe newsletter
+	Subscribe/Unsubscribe to newsletter
+	Customer
+	The customer can subscribe or unsubscribe newsletter
+	
+
+
+
+
+
+
+
+Functional testing  and API  testing will be done
+
+
+
+
+
+
+
+
+      2. Feature not to be tested
+These feature are not be tested because they are not included in the software requirement specs
+         * Stress testing
+         * Performance testing
+         * Database testing
+         * Hardware testing
+         * Non functional testing
+   2. Test Type
+In the project Opencart website, the following  types of testing should be conducted.
+* Integration Testing (Individual software modules are combined and tested as a group)
+   * System Testing: Conducted on a complete, integrated system to evaluate the system's compliance with its specified requirements
+   * API testing: Test all the APIs create for the software under tested
+   3. Risk and Issues
+
+
+
+
+Risk
+	Mitigation
+	Team member lack the required skills for website testing.
+	Plan training course to skill up your members
+	The project schedule is too tight; it's hard to complete this project on time
+	Set Test Priority for each of the test activity.
+	Test Manager has poor management skill
+	Plan leadership training for manager
+	A lack of cooperation negatively affects your employees' productivity
+	Encourage each team member in his task, and inspire them to greater efforts.
+	Wrong budget estimate and cost overruns
+	Establish the scope before beginning work, pay a lot of attention to project planning and constantly track and measure the progress
+	
+
+
+
+   4. Test Logistics
+      1. Who will test?
+The project should use outsource members as the tester to save the project cost
+      2. When will test occur?
+The tester will start the test execution when all the following inputs are ready
+* Software is available for testing
+* Test Specification is created
+* Test Environment is built
+* Enough human resource for testing
+
+
+2. TEST OBJECTIVE
+The test objectives are to verify the Functionality of website “Opencart” an ecommerce site, the project should focus on testing the login/register account ,product listing page,add to cart functionality and payment functionality, order history,order tracking,return and refunds, address,email ,password,password reset and bank account details with security encrypted.
+
+
+The objective of the testing is finding as many software defects as possible ensuring that the software under test is bug free before release and delivers a quality product. 
+
+
+Check for the web elements(UI) testing( Buttons,menu,text,image)
+Check for the usability testing(user friendly,clear contents)
+Check for the functionality of the website is working as expected without any errors or bugs in real business.
+Website layout:HTML/CSS,links
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+3. TEST CRITERIA
+   1. Suspension Criteria
+If the team members report that there are 40% of test cases failed, suspend testing until the development team fixes all the failed cases.
+   2. Exit Criteria
+Specifies the criteria that denote a successful completion of a test phase
+* Run rate is mandatory to be 100% unless a clear reason is given.
+Run rate=no.of test cases executed/total no. of test cases
+* Pass rate is 80%, achieving the pass rate is mandatory.
+Pass rate=no.of test cases passed/no.of test cases executed
+
+
+
+
+4. RESOURCE PLANNING
+   1. System Resource
+
+
+
+
+
+
+
+
+No.
+	Resources
+	Descriptions
+	1
+	Server
+	Need a Database server which install MySQL server Web server which install Apache Server
+	2
+	Test tool
+	Develop a Test tool which can auto generate the test result to the pre- defined form and automated test execution
+	3
+	Network
+	Setup a LAN Gigabit and 1 internet line with the speed at least 5 Mb/s
+	4
+	Computer
+	At least 4 computer run Windows 7, Ram 2GB, CPU 3.4GHZ
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+   2. Human Resource
+
+
+
+
+
+
+No.
+	Member
+	Tasks
+	1
+	Test Manager
+	Manage the whole project Define project directions
+Acquire appropriate resources
+	2
+	Tester
+	Identifying and describing appropriate test techniques/tools/automation architecture
+Verify and assess the Test Approach
+Execute the tests, Log results, Report the defects. Outsourced members
+	3
+	Developer in Test
+	Implement the test cases, test program, test suite etc.
+	4
+	Test Administrator
+	Builds up and ensures test environment and assets are managed and maintained
+Support Tester to use the test environment for test execution
+	5
+	SQA members
+	Take in charge of quality assurance
+Check to confirm whether the testing process is meeting specified requirements
+	
+
+
+
+
+
+5. TEST ENVIRONMENT
+The Test Environment should be setup as figure below
+
+
+1. Ask the developer about web application under test such as what is the maximum user connection which this website can handle?
+
+
+2. What are the hardware and software requirements to install this website?
+
+
+3. Does the user’s computer need any particular setting to browse the website?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. SCHEDULE & ESTIMATION
+   1. All project task and estimation
+
+
+
+
+Task
+	Members
+	Estimate effort
+	Create the test specification
+	Test Designer
+	170 man-hour
+	Perform Test Execution
+	Tester, Test Administrator
+	80 man-hour
+	Test Report
+	Tester
+	10 man-hour
+	Test Delivery
+	
+
+	20 man-hour
+	Total
+	
+
+	280 man-hour
+	
+
+7. TEST DELIVERABLES
+Test deliverables are provided as below
+   2. Before testing phase
+* Test plans document.
+* Test cases documents
+* Test Design specifications.
+   1. During the testing
+* Test Tool
+* Simulators.
+* Test Data
+* Test Trace-ability Matrix
+* Error logs and execution logs.
+   1. After the testing cycles is over
+* Test Results/reports
+* Defect Report
+* Installation/ Test procedures guidelines
+* Release notes
